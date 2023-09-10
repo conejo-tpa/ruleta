@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    text-align: center;
+}
+
+body {
+    background-image: url("https://image.jimcdn.com/app/cms/image/transf/none/path/sc322484c5c07b219/image/ib2833801f400cd8f/version/1648393015/image.png");
+}
+
+.vara {
+    height: 70px;
+    width: 15px;
+    background-color: #aaa;
+    margin: auto;
+    position: relative;
+    top: 10px;
+    border-radius: 0px 0px 8px 8px;
+    border: 1px solid #000;
+    border-top: 5px solid #000;
+    z-index: 1000;
+}
+
+img {
+    z-index: 100;
+    transition: all 5s;
+}
+
+#premio {
+    color: white;
+    position: absolute;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 20px;
+    padding: 20px;
+}
